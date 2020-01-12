@@ -176,7 +176,7 @@ int main() {
 
     StringValidator* passwordValidator[4];
 
-    LengthValidator lengthValidator(8,16);
+    LengthValidator lengthValidator(8,32);
     CaseValidator caseValidator(input);
     SpecialCharacterValidator specialCharacterValidator(input);
     DigitValidator digitValidator(input);
